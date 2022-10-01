@@ -20,6 +20,8 @@ export function CreateAtModal() {
   const [weekDays, setWeekDays] = useState<string[]>([]);
   const [useVoiceChanel, setUseVoiceChanel] = useState(false);
 
+  console.log(weekDays)
+
   function clearDaysSelected() {
     setWeekDays([]);
   }
@@ -217,8 +219,8 @@ export function CreateAtModal() {
                 <ToggleGroup.Item
                   value="6"
                   title="Sábado"
-                  className={`w-8 h-8 rounded bg-zinc-900 ${
-                    weekDays.includes("6") ? "bg-violet-500" : ""
+                  className={`w-8 h-8 rounded  ${
+                    weekDays.includes("6") ? "bg-violet-500" : "bg-zinc-900"
                   }`}
                 >
                   S
