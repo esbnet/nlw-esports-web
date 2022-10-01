@@ -20,8 +20,6 @@ export function CreateAtModal() {
   const [weekDays, setWeekDays] = useState<string[]>([]);
   const [useVoiceChanel, setUseVoiceChanel] = useState(false);
 
-  console.log(weekDays)
-
   function clearDaysSelected() {
     setWeekDays([]);
   }
