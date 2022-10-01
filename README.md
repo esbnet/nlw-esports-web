@@ -17,7 +17,7 @@ Is a web aplication to consumers API [nlw-esports-web](https://github.com/esbnet
 ## How it works:
 
 1. Select the game:
-   ![](src\assets\img\Main.png)
+   ![](.\src\assets\img\Main.png)
 
 2. Fill the form for include yours your availability to play it:
    ![](src\assets\img\CreateAd.png)
